@@ -14,7 +14,7 @@ public class Phan2OnePass {
                 currLen++;
             }else{
                 currLen=1;
-                start=1;
+                start=i;
             }
             if(currLen>maxLen){
                 maxLen=currLen;

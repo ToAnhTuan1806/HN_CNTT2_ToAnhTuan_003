@@ -8,7 +8,7 @@ public class Phan2KiemTraEmailHopLe {
             return false;
         }
         int atIndex=email.indexOf("@");
-        if(atIndex!=-1){
+        if(atIndex==-1){
             return false;
         }
         //kiem tra dung 1 ky tu @

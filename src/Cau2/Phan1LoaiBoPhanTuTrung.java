@@ -9,8 +9,8 @@ public class Phan1LoaiBoPhanTuTrung {
         for(int i=0; i<n; i++){
             boolean ptTrung=false;
             for(int j=0; j<size; j++){
-                if(a[j]==temp[j]){
-                    ptTrung=true;
+                if(a[i] == temp[j]){
+                    ptTrung = true;
                     break;
                 }
             }
